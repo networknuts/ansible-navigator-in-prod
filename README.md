@@ -23,5 +23,11 @@ Install Ansible Navigator from Python Package Repository
   ansible-config init --disabled -f ini -t all > ansible.cfg
 ```
 
+## 3. Download Ansible Enterprise Container Image
 
-    
+Install Ansible Navigator from Python Package Repository
+
+```bash
+  podman login registry.redhat.io
+  podman pull  registry.redhat.io/ansible-automation-platform-23/ee-supported-rhel8
+```
