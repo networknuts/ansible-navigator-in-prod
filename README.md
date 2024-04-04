@@ -31,3 +31,11 @@ Install Ansible Navigator from Python Package Repository
   podman login registry.redhat.io
   podman pull  registry.redhat.io/ansible-automation-platform-23/ee-supported-rhel8
 ```
+
+## 3. Running Playbooks
+
+Install Ansible Navigator from Python Package Repository
+
+```bash
+  ansible-navigator run playbook.yml -m stdout -i inventory
+```
